@@ -1,5 +1,6 @@
 <FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
-  SetHandler application/x-lsphp74
+  #SetHandler application/x-lsphp74
+  AddHandler application/x-httpd-alt-php80 .php
 </FilesMatch>
 
 <IfModule mod_rewrite.c>
